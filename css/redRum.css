@@ -767,6 +767,46 @@ p {
 }
 
 @media (max-width: 479px) {
+#audioplayer{
+    width: 300px;
+    height: 60px;
+    margin: 5px auto auto auto;
+  border: solid rgba(248, 199, 41, .7);
+	background: rgba(0,0,0,.2);
+}
+
+#pButton{
+    height:60px; 
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.play{background: url('../images/play.png') ;}
+.pause{background: url('../images/pause.png') ;}
+
+#timeline{
+    width: 220px;
+    height: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(0,0,0,.5);
+  
+}
+#playhead{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: rgba(248, 199, 41,1);
+
+}	
+	
   .hero-heading {
     font-size: 39px;
     line-height: 52px;
