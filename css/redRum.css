@@ -781,11 +781,10 @@ p {
   .button.big {
     width: 35%;
 	margin-top: 20%;  
-    margin-right: 0px;
+    margin-right: 10px;
     margin-bottom: 12px;
-    margin-left: 0px;
-	  background-color: #EB8A00;
-	  border-color: black;
+    margin-left: 10px;
+
   }
 	.hero {
   height: 100vh;
