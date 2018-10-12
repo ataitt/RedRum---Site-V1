@@ -784,6 +784,8 @@ p {
     margin-right: 0px;
     margin-bottom: 12px;
     margin-left: 0px;
+	  background-color: #EB8A00;
+	  border-color: black;
   }
 	.hero {
   height: 100vh;
