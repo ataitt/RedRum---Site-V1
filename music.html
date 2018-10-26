@@ -75,7 +75,7 @@
         <div class="w-dyn-items">
           <div class="w-dyn-item">
             <div class="featured-track w-row">
-              <div class="w-col w-col-4"><a href="#" class="play-music w-inline-block"><img width="218" src="https://uploads-ssl.webflow.com/5bb676ab04e5faddfaa1c097/5bb676ab04e5fa9c81a1c0a0_Random_Access_Memories.jpg" alt="" class="album-art"></a></div>
+              <div class="w-col w-col-4"><a href="#" class="play-music w-inline-block"><img width="218" src="images\redrumAlbumBG.jpg" alt="" class="album-art"></a></div>
               <div class="w-col w-col-8">
                 <div class="small-grey-text">FEATURED ALBUM</div>
                 <h3 class="featured-title"></h3>
@@ -87,20 +87,34 @@
       </div>
       <div class="album-columns w-row">
         <div class="w-col w-col-4">
-          <div class="small-grey-text">Album </div>
+			
+		  <!-- Begin Album -->
+          <div class="small-grey-text">Album</div>
           <h2 class="album-heading">RedRum</h2>
           <div class="album-list w-dyn-list">
             <div class="w-dyn-items">
               <div class="song-list-item w-dyn-item">
-                <h4 class="song-title"></h4>
-                <div class="small-grey-text"></div>
-                <div class="small-grey-text"></div>
+                <h4 class="song-title">Pitchfork</h4>
+                <div class="small-grey-text">
+				  
+				<!-- Audio Player -->
+			  <audio id="music" preload="true">
+				<source src="audio\PITCHFORK OFFICIAL TRAILER.mp3">
+				<source src="audio\PITCHFORK OFFICIAL TRAILER.ogg">
+			  </audio>
+				<div id="audioplayer">
+					<button id="pButton" class="play"></button>
+						<div id="timeline">    
+						<div id="playhead"></div>
+						</div>
+				</div>
+				  
+				  </div>
               </div>
             </div>
-            <div class="w-dyn-empty">
-              <p>No items found.</p>
-            </div>
           </div>
+		  <!-- End Album -->
+			
         </div>
 		  <!--
         <div class="w-col w-col-4">

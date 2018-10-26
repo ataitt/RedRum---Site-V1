@@ -114,7 +114,7 @@ p {
   background-image: radial-gradient(circle farthest-corner at 50% 100%, rgba(0, 0, 0, .1) 80%, rgba(0, 0, 0, .1) 100%), url('../images/BG-2.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -152,8 +152,8 @@ p {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5) 80%, rgba(0, 0, 0, .6) 100%), url('../images/BG-0-2.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-weight: 300;
 }
 
@@ -523,7 +523,7 @@ p {
   display: block;
   width: 80%;
   margin-right: auto;
-  margin-bottom: 69px;
+  margin-bottom: 60px;
   margin-left: auto;
   text-align: center;
 }
@@ -641,16 +641,16 @@ p {
 }
 
 #audioplayer{
-    width: 400px;
-    height: 60px;
-    margin: 5px auto auto auto;
+    width: 200px;
+    height: 50px;
+    margin: 2px auto auto auto;
   border: solid rgba(248, 199, 41, .7);
 	background: rgba(0,0,0,.2);
 }
 
 #pButton{
-    height:60px; 
-    width: 60px;
+    height:40px; 
+    width: 40px;
     border: none;
     background-size: 50% 50%;
     background-repeat: no-repeat;
@@ -663,9 +663,9 @@ p {
 .pause{background: url('../images/pause.png') ;}
 
 #timeline{
-    width: 320px;
+    width: 135px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 12px;
     float: left;
     border-radius: 15px;
     background: rgba(0,0,0,.5);
@@ -823,16 +823,16 @@ p {
 }
 	
 #audioplayer{
-    width: 300px;
-    height: 60px;
-    margin: 5px auto auto auto;
+    width: 200px;
+    height: 50px;
+    margin: 2px auto auto auto;
     border: solid rgba(248, 199, 41, .7);
 	background: rgba(0,0,0,.2);
 }
 
 #pButton{
-    height:60px; 
-    width: 60px;
+    height:40px; 
+    width: 40px;
     border: none;
     background-size: 50% 50%;
     background-repeat: no-repeat;
@@ -845,9 +845,9 @@ p {
 .pause{background: url('../images/pause.png') ;}
 
 #timeline{
-    width: 220px;
+    width: 135px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 12px;
     float: left;
     border-radius: 15px;
     background: rgba(0,0,0,.5);
