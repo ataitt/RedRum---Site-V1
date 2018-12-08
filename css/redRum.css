@@ -166,7 +166,7 @@ p {
 
 .page-title {
   margin-top: 0px;
-  margin-bottom: 86px;
+  margin-bottom: 46px;
   font-size: 45px;
   line-height: 51px;
   font-weight: 300;
@@ -969,4 +969,10 @@ p {
 
 #musicPage_video {
 	width: 80%;
+}
+
+#musicPG_section-title {
+	padding: 10px 2.5%;
+	color: #fff;
+    text-align: center;
 }
